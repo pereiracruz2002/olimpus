@@ -1,4 +1,4 @@
-var App =  angular.module('starter.controllers', [])
+var App =  angular.module('starter.controllers',['ionic', 'ion-autocomplete', 'ngCordova', 'angularLoad', 'ngMask'])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
